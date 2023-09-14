@@ -1,0 +1,118 @@
+.leaderboard_div{
+    background-color: lightgray;
+    border: solid 5px cornflowerblue;
+    position: absolute;
+    width: 750px;
+    height: 500px;
+    position: fixed;
+    left: 725px;
+    top: 190px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+
+.comment_div {
+  background-color: lightgray;
+  border: solid 5px cornflowerblue;
+  height: 395px;
+  width: 650px;
+  position: absolute;
+  left: 15px;
+  top: 190px;
+  padding: 15px 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-wrap: normal;
+}
+
+
+.team_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.leaderboard_header{
+    font-weight: bold;
+    font-size: 25px;
+    left: 1000px;
+    top: 125px;
+    position: fixed;
+}
+
+.comment_header{
+    font-weight: bold;
+    font-size: 25px;
+    left: 300px;
+    top: 125px;
+    position: fixed;
+}
+
+.new_comment_div{
+    background-color: lightgray;
+    width: 650px;
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    bottom: 23px;
+    padding: 10px 15px;
+    border: solid 5px blue;
+}
+
+.new_com_button{
+    position: absolute;
+    width: 90px;
+    left: 583px;
+    height: 50px;
+    bottom: 30px;
+}
+
+.new_comment{
+    resize: none;
+    position: absolute;
+    width: 555px;
+    height: 75px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+table {
+  width: 100%;
+  table-layout: fixed;
+    text-align: left;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+
+}
+
+table tr{
+    padding: 3px 3px;
+    background-color: aliceblue;
+}
+
+table tr:hover{
+    background-color: cornflowerblue;
+    border: solid 5px black;
+}
+
+.db_comment{
+    background-color: aliceblue;
+    word-wrap: break-word;
+}
+
+
+.favicon:hover{
+    background-color: grey;
+}
+
+.favicon_edit:hover{
+    background-color: grey;
+}
+
+
+
+

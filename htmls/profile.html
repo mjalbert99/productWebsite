@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../public/navBar.css">
+        <script src="../public/profile.js"></script>
+        <script src="../public/verifyLogin.js"></script>
+        <script src="../public/nav.js"></script>
+    </head>
+
+    <body>
+    <nav class="nav_list">
+    </nav>
+
+        <h2 class="update_header">Update Profile: </h2>
+        <h3 class="profile_update_header1">Update email:</h3>
+        <h3 class="profile_update_header2">Update username:</h3>
+        <h3 class="profile_update_header3">Update password:</h3>
+
+    <div class="form-div">
+
+        <form id="update_email">
+            <label for="old_email">Old email</label>
+            <input id="old_email" type="text" required>
+            <label for="new_email">New email</label>
+            <input id="new_email" type="text" required>
+            <button type="submit">Update</button>
+        </form>
+
+        <form id="update_username">
+            <label for="old_username">Old username</label>
+            <input id="old_username" type="text" required>
+            <label for="new_username">New username</label>
+            <input id="new_username" type="text" required>
+            <button type="submit">Update</button>
+        </form>
+
+        <form id="update_password">
+            <label for="old_password">Old password</label>
+            <input id="old_password" type="password" required>
+            <label for="new_password">New password</label>
+            <input id="new_password" type="password" required>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+    </body>
+
+</html>

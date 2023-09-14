@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <link rel="stylesheet" href="../public/navBar.css">
+        <link rel="stylesheet" href="../public/lb.css">
+        <script src="../public/leaderboard.js"></script>
+        <script src="../public/verifyLogin.js"></script>
+        <script src="../public/nav.js"></script>
+    </head>
+
+    <body>
+    <nav class="nav_list">
+    </nav>
+
+    <h3 class="leaderboard_header">SlideSpace Ideas</h3>
+    <div class="leaderboard_div">
+        <table class="idea_table">
+          <thead>
+            <tr style="background-color: lightgray" style="border: black solid 5px">
+              <th style="width: 5%">ID</th>
+              <th style="width: 40%">Project Name</th>
+              <th style="width: 40%">Team Members</th>
+              <th style="width: 15%">Score</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+    </div>
+
+    <template id="table-row-template">
+        <tr id="table-row">
+            <td class="id"></td>
+            <td class="project-name"></td>
+            <td class="team-members"></td>
+            <td class="score"></td>
+        </tr>
+    </template>
+
+    <p class="comment_rules">
+        ** To add a comment click on a project then the comment window will update with the previous ones**
+    </p>
+
+    <p class="comment_rules">
+        ** Then add your own comment and submit it**
+    </p>
+
+    <h3 class="comment_header">Comments</h3>
+    <div class="comment_div">
+            <template id="comment_template">
+                <div class="db_comment">
+                    <label id="comment"></label>
+                    <br>
+                    <img class="favicon" src="favicons/trashcan.ico"/>
+                    <img class = "favicon_edit" src="favicons/edit.ico"/>
+                    <br>
+                </div>
+                <br>
+            </template>
+    </div>
+
+    <div class="new_comment_div">
+            <textarea  class="new_comment" type="text" minlength="1" required></textarea>
+            <button class="new_com_button" type="submit">Comment</button>
+    </div>
+
+    </body>
+
+</html>

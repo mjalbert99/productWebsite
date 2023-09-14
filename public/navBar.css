@@ -1,0 +1,174 @@
+    nav {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      background-color: blue;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    nav label{
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav label:hover {
+      background-color: white;
+      color: black;
+    }
+
+    body {
+      margin: 0;
+      padding-top: 50px;
+    }
+
+    .form-div{
+        padding-left: 20px;
+    }
+
+    p{
+        border-radius: 10px;
+        background-color: lightgray;
+        padding: 5px;
+        width: fit-content;
+    }
+
+    h4{
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    h1{
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    form{
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        left: 40%;
+        top: 17%;
+        background-color: lightgray;
+    }
+
+    .login_header{
+        position: absolute;
+        left: 44%;
+    }
+
+    .recovery_form{
+        top: 25%;
+    }
+
+    .recovery_header{
+        position: absolute;
+        left: 35%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .register_header{
+        position: absolute;
+        left: 44%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #update_password{
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        left: 15%;
+        top: 21%;
+        background-color: lightgray;
+    }
+
+    #update_username{
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        left: 15%;
+        top: 31%;
+        background-color: lightgray;
+    }
+
+    #update_email{
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        left: 15%;
+        top: 41%;
+        background-color: lightgray;
+    }
+
+    .profile_update_header3{
+        position: absolute;
+        left: 2%;
+        top: 18%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .profile_update_header2{
+        position: absolute;
+        left: 2%;
+        top: 28%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .profile_update_header1{
+        position: absolute;
+        left: 2%;
+        top: 38%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .update_header{
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        height: auto
+    }
